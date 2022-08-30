@@ -1,0 +1,190 @@
+.tech-bg {
+    background-color: var(--cor-10);
+}
+
+
+.tech-titulo {
+    margin-left: 150px;
+    padding-top: 60px;    
+    padding-bottom: 30px;
+}
+
+.tech-titulo h1 {
+    font-size: 3rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.tech-programas ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;            
+}
+
+.tech-programas li{
+    padding-right: 40px;
+            
+}
+
+.tech-programas a {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+}
+
+
+
+.tech-programas ul {
+    padding-bottom: 30px;
+    align-content: center;   
+    font-size: 1.1rem;
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+}
+
+.tech-programas img{
+    padding-bottom: 15px;
+    object-fit: cover; 
+    max-width: 100%;
+    max-height: 100%;    
+}
+
+.tech-programas img:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);    
+}
+
+.tech-programas a:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);    
+}
+
+/* projetos */
+
+.projetos-titulo {    
+    padding-bottom: 30px;    
+}
+
+.projetos-titulo h1 {    
+    font-size: 2rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;
+}
+
+.projetos-lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;    
+}
+
+.projetos-lista ul {
+    margin-left: 150px;
+    padding-top: 30px; 
+}
+
+.projetos-lista li {
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+
+.projetos-lista a {    
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+}
+
+.projetos-lista img{
+    padding-bottom: 15px;
+    object-fit: cover; 
+    max-width: 100%;
+    max-height: 100%;    
+}
+
+.projetos-lista img:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);    
+}
+
+.projetos-lista a:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);    
+}
+
+
+
+@media (min-width: 1800px) {
+    .tech-titulo {
+        margin-left: 300px;
+    }
+
+    .projetos-lista ul {
+        margin-left: 300px;        
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .tech-titulo {
+        margin-left: 60px;
+    }
+
+    .tech-titulo h1 {
+        font-size: 2rem;        
+    }
+
+    .projetos-lista ul {
+        margin-left: 60px;        
+    }
+
+    .projetos-titulo h1 {    
+        font-size: 2rem;        
+    }
+
+}
+
+@media (max-width: 450px) {
+    .tech-titulo {
+        padding-top: 30px;  
+        margin-left: 30px;
+    }
+
+    .tech-titulo h1 {
+        font-size: 1.5rem;        
+    }
+   
+    .tech-programas ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px 40px;
+        margin-right: 150px;           
+    }
+
+    .projetos-lista {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px 40px; 
+    }
+    
+
+    .tech-programas a {        
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    
+    .tech-programas a {
+        font-size: 1.1rem;
+    } 
+
+    .projetos-titulo h1 {    
+        font-size: 1.5rem;        
+    }
+
+    .projetos-lista li {
+        margin-right: 100px;        
+    }    
+}
