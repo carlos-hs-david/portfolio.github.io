@@ -99,7 +99,10 @@
         font-size: 18px;    
     }
     .contato-header h3 {
-      font-size: 1.1rem;}    
+      font-size: 1.1rem;}
+      .header-menu a:after {        
+        display: none;           
+      }    
   }  
   
   @media (max-width: 450px) {
