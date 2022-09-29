@@ -9,3 +9,9 @@ function ativarLink(link){
 }
 
 links.forEach(ativarLink);
+
+//animação
+
+if(window.SimpleAnime) {
+    new SimpleAnime();
+}

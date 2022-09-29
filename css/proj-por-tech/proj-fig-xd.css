@@ -1,5 +1,18 @@
+
+
 .tech-bg {
     background-color: var(--cor-10);
+    
+}
+
+/* divisoria */
+
+.divisoria-pg {
+    background-color: var(--cor-9);
+    margin-left: 0px;
+    margin-right: 150px;
+    height: 2px;
+    width: auto;
 }
 
 
@@ -21,6 +34,11 @@
     display: flex;
     flex-direction:row;
     justify-content: left;            
+}
+
+.tech-programas {
+    padding-bottom: 30px;
+
 }
 
 .tech-programas li{
@@ -123,9 +141,14 @@
 
     .projetos-lista ul {
         margin-left: 300px;        
-    }
+    }  
+    .divisoria-pg {    
+        margin-right: 150px;
+        margin-left: -120px;
+    }  
 
 }
+
 
 @media (max-width: 1300px) {
     .tech-titulo {
@@ -144,6 +167,19 @@
         font-size: 2rem;        
     }
 
+    .divisoria-pg {    
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .projetos-lista {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px 40px; 
+    }
 }
 
 @media (max-width: 450px) {
@@ -168,6 +204,11 @@
         grid-template-columns: 1fr;
         gap: 0px 40px; 
     }
+
+    .divisoria-pg {    
+        margin-right: 60px;
+        margin-left: 30px;
+    }
     
 
     .tech-programas a {        
@@ -175,13 +216,35 @@
         padding-bottom: 10px;
     }
 
+    .projetos-lista li {        
+        padding-bottom: 30px; 
+    }
+
+    .projetos-links ul {        
+        padding-bottom: 0px; 
+    }
+
     
     .tech-programas a {
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     } 
 
     .projetos-titulo h1 {    
-        font-size: 1.5rem;        
+        font-size: 1.1rem;
+               
+    }
+
+    .tech-bg h1 {        
+        padding-bottom: 30px;
+        padding-top: 0px;        
+    }
+
+    .tech-bg ul {        
+        padding-bottom: 0px;              
+    }
+
+    .projetos-links h1{
+        padding-top: 30px;
     }
 
     .projetos-lista li {

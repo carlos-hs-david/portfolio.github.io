@@ -1,5 +1,6 @@
 .ferramentas-bj {
     background: var(--cor-10);
+    padding-top: 60px;
     /* padding-bottom: 60px;     */
 }
 
@@ -9,7 +10,7 @@
 }
 
 .ferramentas-titulo h1 {    
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
 }
@@ -97,6 +98,17 @@
     }
 }
 
+@media (max-width: 500px) {
+    .ferramentas-titulo h1 {
+        font-size: 1.5rem;
+    }
+    
+    .ferramentas-links a {
+        font-size: 1rem;
+    }  
+
+}
+
 @media (max-width: 450px) {
     .ferramentas-titulo {
         margin-left: 30px;       
@@ -106,9 +118,10 @@
     }   
 }
     
-@media (max-width: 450px) { 
+@media (max-width: 450px) {
+   
     .ferramentas-titulo h1 {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
     .ferramentas-links {    
         max-width: 75%;
@@ -121,10 +134,10 @@
 
 @media (max-width: 300px) {
     .ferramentas-titulo h1 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }    
     .ferramentas-links a {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }    
 }
 

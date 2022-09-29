@@ -10,7 +10,7 @@
 }
 
 .proj-titulo h1 {    
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
 }
@@ -110,16 +110,31 @@
         max-height: 75%;                      
     }
     .proj-links a {
-        font-size: 1.1rem;
-    }    
+        font-size: 0.8rem;
+    }
+
+    .proj-bj  {        
+        padding-bottom: 0px;
+        padding-top: 0px;
+    } 
+    .proj-titulo h1  {        
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .proj-links li {
+        padding-bottom: 30px;
+    }
+    .proj-links ul {
+        padding-bottom: 30px;
+    }       
 }
 
 @media (max-width: 300px) {
     .proj-titulo h1 {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }    
     .proj-links a {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }    
 }
 

@@ -13,8 +13,8 @@
     font-size: 3rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;    
-    padding-top:60px;
-    padding-bottom: 45px;
+    padding-top:120px;
+    padding-bottom: 60px;
 }
 
 .curriculo-intro h2{ 
@@ -28,7 +28,11 @@
     font-size: 1.1rem;
     font-family:'Roboto',sans-serif;
     font-weight: 400;   
-    padding-bottom: 60px;
+    padding-bottom: 60px;   
+}
+
+.curriculo-bg{
+    max-width: 80ch;
 }
 
 /* qualificações */
@@ -38,6 +42,8 @@
     margin-right: 150px;
 }
 
+
+
 .curriculo-qualificacoes ul{    
     padding-bottom: 45px;      
 }
@@ -46,7 +52,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;     
-    padding-bottom: 30px;      
+    padding-bottom: 30px;
+          
 }
 
 
@@ -54,14 +61,17 @@
     font-size: 1.1rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;      
-    padding-bottom: 30px;      
+    padding-bottom: 30px;
+    
+         
 }
 
 .curriculo-qualificacoes li{  
     font-size: 1.1rem;
     font-family:'Roboto',sans-serif;
     font-weight: 400;    
-    padding-bottom: 10px;      
+    padding-bottom: 10px;
+          
 }
 
 /* formacao */
@@ -100,28 +110,31 @@
     font-size: 1.5rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 600;    
-    padding-bottom: 30px;      
+    padding-bottom: 30px;
+         
 }
 
 .curriculo-experiencia h4{ 
     font-size: 1.1rem;
     font-family:'Roboto',sans-serif;
     font-weight: 400;    
-    padding-bottom: 30px;      
+    padding-bottom: 30px;
+         
 }
 
 .curriculo-experiencia ul{
     font-size: 1.1rem;
     font-family:'Roboto',sans-serif;
     font-weight: 400;     
-    padding-bottom: 45px;      
+    padding-bottom: 45px;
+         
 }
 
 .curriculo-experiencia h2{
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;    
-    padding-bottom: 30px;      
+    padding-bottom: 30px;          
 }
 
 .curriculo-experiencia li{    
@@ -143,7 +156,7 @@
 }
 
 .curriculo-adicional li{    
-    padding-bottom: 10px;        
+    padding-bottom: 10px;            
 }
 
 
@@ -157,8 +170,16 @@
 /* intro */
 
 @media (min-width: 1800px) {
+    .curriculo-bg{
+        max-width: 150ch;
+    }    
     
     .curriculo-intro h1, h2, p {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .curriculo-adicional ul, .curriculo-adicional h2 {
         margin-left: 300px;
         margin-right: 300px;
     }
@@ -168,6 +189,9 @@
     .curriculo-intro h1, h2, p {
         margin-left: 60px;
         margin-right: 60px;
+    }
+    .curriculo-bg{
+        max-width: 90ch;
     }
 }
 
@@ -183,6 +207,10 @@
     .curriculo-intro p{ 
         font-size: 1rem;       
     }
+    .curriculo-bg{
+        max-width: 80ch;
+    }
+
 }
 
 @media (max-width: 450px) {
@@ -191,7 +219,9 @@
         margin-right: 30px;
     }
     .curriculo-intro h1{
-        font-size: 1.5rem;       
+        font-size: 1.5rem;
+        padding-top: 30px; 
+        padding-bottom: 30px;      
     }
     
     .curriculo-intro h2{ 
@@ -200,6 +230,9 @@
     
     .curriculo-intro p{ 
         font-size: 0.8rem;        
+    }
+    .curriculo-bg{
+        max-width: 60ch;
     }    
 }
 
@@ -324,10 +357,10 @@
 
 @media (min-width: 1800px) {
     
-    .curriculo-adicional ul, .curriculo-adicional h2 {
+    /* .curriculo-adicional ul, .curriculo-adicional h2 {
         margin-left: 300px;
         margin-right: 300px;
-    }
+    } */
 }
 
 @media (max-width: 1300px) {
