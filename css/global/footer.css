@@ -1,5 +1,5 @@
 .footer-bg {
-    background-color: var(--cor-9);
+    background-color: var(--cor-9);    
   }
   
 .footer {
@@ -47,6 +47,10 @@
     .footer-redes ul{      
       margin-right: 300px;
     }
+
+    .footer {
+        padding-bottom: 40px;}
+    
 }
 
 @media (max-width: 1300px) {

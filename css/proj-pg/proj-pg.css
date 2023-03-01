@@ -1,14 +1,14 @@
-.proj-pg-bg{
+.proj-pg-bg {
     background-color: var(--cor-10);
 }
 
-.proj-pg-links p{
+.proj-pg-links p {
     font-size: 1.1rem;
     font-family:'Roboto',sans-serif;
     font-weight: 400;    
 }
 
-.proj-pg-links a{
+.proj-pg-links a {
     text-decoration:underline;
     color: #e2d880;
 }
@@ -16,7 +16,7 @@
 /* intro */
 
 .proj-pg-intro h1 {
-    padding-top: 120px;       
+    padding-top: 120px;          
 }
 
 .proj-pg-intro h1, .proj-pg-intro img {
@@ -93,6 +93,30 @@
     font-weight: 400;
     width: 100ch;    
 }
+
+.p-proj-sobre a {
+    text-decoration:underline;
+    color: #e2d880;}
+
+.p-proj-sobre ul {
+    margin-left: 150px;
+    margin-right: 150px; 
+    padding-bottom: 30px;
+}
+
+.p-proj-sobre li {
+    padding-bottom: 5px;
+
+}
+
+.p-proj-sobre img {
+    margin-left: 150px;
+    margin-right: 150px; 
+    padding-bottom: 30px;
+    object-fit: cover;
+}
+
+
 
 
 /* publicacoes */
@@ -394,7 +418,17 @@
     .p-proj-sobre h1, .p-proj-sobre p {
         margin-left: 300px;
         margin-right: 300px;                
-    }   
+    }
+    
+    .p-proj-sobre ul {
+        margin-left: 300px;
+        margin-right: 300px; 
+    }
+
+    .p-proj-sobre img {
+        margin-left: 300px;
+        margin-right: 300px;        
+    }
 
 
     /* publicacoes */
@@ -522,6 +556,17 @@
 
     .p-proj-sobre p {
         width: 70ch;
+    }
+
+    .p-proj-sobre ul {
+        margin-left: 60px;
+        margin-right: 60px; 
+    }
+
+    .p-proj-sobre img {
+        margin-left: 60px;
+        margin-right: 60px;
+        max-width: 75%;        
     }
 
    
@@ -908,6 +953,16 @@
     .p-proj-sobre h1, .p-proj-sobre p {
         margin-left: 30px;
         margin-right: 30px;                
+    }
+
+    .p-proj-sobre ul {
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+
+    .p-proj-sobre img {
+        margin-left: 30px;
+        margin-right: 30px;        
     }
 
     .p-proj-sobre h1 {     
