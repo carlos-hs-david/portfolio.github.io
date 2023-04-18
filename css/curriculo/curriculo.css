@@ -32,7 +32,7 @@
 }
 
 .curriculo-bg{
-    max-width: 80ch;
+    max-width: 130ch;
 }
 
 /* qualificações */
@@ -171,7 +171,7 @@
 
 @media (min-width: 1800px) {
     .curriculo-bg{
-        max-width: 150ch;
+        max-width: 130ch;
     }    
     
     .curriculo-intro h1, h2, p {
@@ -191,7 +191,7 @@
         margin-right: 60px;
     }
     .curriculo-bg{
-        max-width: 90ch;
+        max-width: 130ch;
     }
 }
 
@@ -357,10 +357,10 @@
 
 @media (min-width: 1800px) {
     
-    /* .curriculo-adicional ul, .curriculo-adicional h2 {
+    .curriculo-adicional ul, .curriculo-adicional h2 {
         margin-left: 300px;
         margin-right: 300px;
-    } */
+    }
 }
 
 @media (max-width: 1300px) {

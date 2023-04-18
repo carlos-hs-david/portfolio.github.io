@@ -95,7 +95,8 @@
 .projetos-lista {
     display: flex;
     flex-direction: row;
-    justify-content: left;    
+    justify-content: left;
+    flex-wrap: wrap;    
 }
 
 .projetos-lista ul {
@@ -175,11 +176,11 @@
 }
 
 @media (max-width: 600px) {
-    .projetos-lista {
+    /* .projetos-lista {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 0px 40px; 
-    }
+    } */
 }
 
 @media (max-width: 450px) {
