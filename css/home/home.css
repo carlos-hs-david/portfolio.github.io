@@ -142,7 +142,7 @@
 
 .servico-home {
     /* background-color:darkcyan; */
-    background-image:url('/img/1-index/images/2-img-serviços.jpg');
+    background-image:url('/img/1-index/images/2-img-servicos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top:100px;
@@ -397,19 +397,6 @@
 }
 
 /* servico */
-
-.servico-home {
-    /* background-color:darkcyan; */
-    background-image:url('/img/1-index/images/2-img-serviços.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top:50px;
-    padding-bottom: 50px;  
-}
-
-
-
-
 
 .servico-home-titulo {
     display: flex;
