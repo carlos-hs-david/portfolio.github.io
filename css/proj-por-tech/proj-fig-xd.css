@@ -28,29 +28,36 @@
     font-weight: 400;
     padding-top: 60px;
     padding-bottom: 60px;
+    color: #f8f0a7;
 }
 
 .tech-programas ul{
     display: flex;
     flex-direction:row;
-    justify-content: left;            
+    justify-content: left;
+    flex-wrap: wrap;             
 }
 
 .tech-programas {
     padding-bottom: 30px;
+    
 
 }
 
 .tech-programas li{
-    padding-right: 40px;
+    padding: 40px;
+    
             
 }
 
+
+
 .tech-programas a {
+    color: #f8f0a7;
     display: flex;
     flex-direction:column;
     justify-content:center;
-    text-align: center;
+    text-align: center;   
 }
 
 
@@ -67,7 +74,8 @@
     padding-bottom: 15px;
     object-fit: cover; 
     max-width: 100%;
-    max-height: 100%;    
+    max-height: 100%; 
+        
 }
 
 .tech-programas img:hover {
@@ -90,6 +98,7 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
+    color: #f8f0a7;
 }
 
 .projetos-lista {
@@ -114,6 +123,7 @@
     flex-direction:column;
     justify-content:center;
     text-align: center;
+    color: #f8f0a7;
 }
 
 .projetos-lista img{
@@ -145,7 +155,7 @@
     }  
     .divisoria-pg {    
         margin-right: 150px;
-        margin-left: -120px;
+        margin-left: -50px;
     }  
 
 }
@@ -175,12 +185,10 @@
 
 }
 
-@media (max-width: 600px) {
-    /* .projetos-lista {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 0px 40px; 
-    } */
+@media (max-width: 800px) {
+    .tech-programas {        
+        margin-left: 0px;           
+    }
 }
 
 @media (max-width: 450px) {
@@ -197,7 +205,8 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 0px 40px;
-        margin-right: 150px;           
+        margin-right: 150px;
+        margin-left: 0px;           
     }
 
     .projetos-lista {

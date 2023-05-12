@@ -10,7 +10,7 @@
 
 .proj-pg-links a {
     text-decoration:underline;
-    color: #e2d880;
+    color: #f8f0a7;
 }
 
 /* intro */
@@ -28,7 +28,8 @@
 .proj-pg-intro h1 {     
     font-size: 3rem;
     font-family:'Montserrat',sans-serif;
-    font-weight: 400;    
+    font-weight: 400;
+    color: #f8f0a7;    
 }
 
 .proj-pg-intro img {
@@ -40,6 +41,8 @@
 
 .proj-pg-links p {
     padding-bottom: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 /* metodo */
@@ -58,7 +61,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;    
+    padding-top: 60px;
+    color: #f8f0a7;   
 }
 
 .p-proj-metodo img {
@@ -84,7 +88,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7; 
 }
 
 .p-proj-sobre p {
@@ -96,7 +101,8 @@
 
 .p-proj-sobre a {
     text-decoration:underline;
-    color: #e2d880;}
+    color: #e2d880;
+}
 
 .p-proj-sobre ul {
     margin-left: 150px;
@@ -131,7 +137,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px; 
+    padding-top: 60px;
+    color: #f8f0a7; 
 }
 
 .p-proj-public p {
@@ -160,7 +167,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7; 
 }
 
 .p-proj-passos p {
@@ -183,7 +191,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7;  
 }
 
 .p-proj-briefing ul {
@@ -214,7 +223,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7; 
 }
 
 .p-proj-benchmark p {
@@ -227,7 +237,8 @@
 
 .p-proj-benchmark a {
     text-decoration:underline;
-    color: #e2d880;}
+    color: #f8f0a7;
+}
 
 /* story */
 
@@ -245,7 +256,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400; 
-    padding-top: 60px; 
+    padding-top: 60px;
+    color: #f8f0a7;
 }
 
 .p-proj-story p {
@@ -271,7 +283,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7; 
 }
 
 .p-proj-persona p {
@@ -303,7 +316,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 30px;  
+    padding-top: 30px;
+    color: #f8f0a7;  
 }
 
 .p-proj-stake p {
@@ -329,7 +343,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7;
 }
 
 .p-proj-desenv p {
@@ -359,7 +374,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7; 
 }
 
 .p-proj-conc p {
@@ -385,7 +401,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7; 
 }
 
 .p-proj-fluxo p {
@@ -411,7 +428,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7;
 }
 
 .p-proj-cor p {
@@ -423,7 +441,8 @@
 
 .p-proj-cor a {
     text-decoration:underline;
-    color: #e2d880;}
+    color: #f8f0a7;
+}
 
 /* resultado */
 
@@ -441,7 +460,8 @@
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;  
+    padding-top: 60px;
+    color: #f8f0a7;  
 }
 
 .p-proj-result p {
@@ -459,6 +479,13 @@
     .proj-pg-intro h1, .proj-pg-intro img {
         margin-left: 300px;
         margin-right: 300px;        
+    }
+
+    /* links */
+
+    .proj-pg-links p {
+        margin-left: 300px;
+        margin-right: 300px;
     }
 
     /* metodo */
@@ -594,6 +621,13 @@
 
     .proj-pg-intro img {
         max-width: 75%;
+    }
+
+     /* links */
+
+     .proj-pg-links p {
+        margin-left: 60px;
+        margin-right: 60px;
     }
 
      /* metodo */
@@ -1080,6 +1114,14 @@
     }
     .proj-pg-intro img {    
         padding-top: 15px;      
+    }
+
+
+     /* links */
+
+     .proj-pg-links p {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     /* metodo */

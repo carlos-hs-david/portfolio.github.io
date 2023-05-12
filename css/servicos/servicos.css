@@ -1,0 +1,455 @@
+
+.servicos-bg {
+    background: var(--cor-10);
+}
+
+ /* intro */
+
+.servicos-intro {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-content: end;    
+}
+
+
+.servicos-intro-texto h1{
+    font-size: 3rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;    
+    padding-top:120px;
+    padding-bottom: 60px;
+    margin-left: 150px;
+    color: #f8f0a7; 
+}
+
+.servicos-intro-texto h2{ 
+    font-size: 2rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;   
+    padding-bottom: 30px;
+    margin-left: 150px;
+    color: #f8f0a7; 
+}
+
+.servicos-intro-texto p{ 
+    font-size: 1.1rem;
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;   
+    padding-bottom: 30px;
+    margin-left: 150px;   
+}
+
+.servicos-intro-img {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* servicos */
+
+.servicos-ux {
+    margin-left: 150px;
+    margin-right: 150px;    
+}
+
+.servicos-ux-intro h1 {
+    font-size: 3rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;     
+    padding-bottom: 60px;
+    color: #f8f0a7; 
+}
+
+.servicos-ux-intro img {
+    padding-bottom: 60px;       
+    height: 100%;
+    width:100%;
+    max-width:min-content;    
+    object-fit: cover;
+}
+
+
+.servicos-ux-conteudo  {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-content: left;    
+}
+
+.servicos-ux-texto p {   
+    font-size: 1.1rem;
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;   
+    padding-bottom: 60px;
+    margin-left: 0px;
+}
+
+.servicos-ux-texto h1{
+    font-size: 3rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;    
+    padding-bottom: 60px;
+    color: #f8f0a7; 
+    
+}
+
+.servicos-ux-texto h2{ 
+    font-size: 2rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;   
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #f8f0a7; 
+    
+}
+
+.servicos-ux-texto h3{ 
+    font-size: 1.5rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;   
+    padding-bottom: 30px;
+    color: #f8f0a7; 
+    
+}
+
+.servicos-intro-texto p{ 
+    font-size: 1.1rem;
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;   
+    padding-bottom: 30px;
+     
+}
+
+.servicos-ux-texto ul{
+    padding-top: 0px;
+    padding-bottom: 60px;
+    
+}
+
+.servicos-ux-img {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 150px;
+    padding-right: 100px;   
+}
+
+.chamada-servico {
+    margin-left: 150px;
+    padding-bottom: 60px;  
+}
+
+.chamada-servico h2 {
+    font-size: 2rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;   
+    padding-bottom: 30px;    
+    color: #f8f0a7;    
+
+}
+
+
+
+
+
+
+/* intro */
+
+@media (min-width: 1800px) {
+    /* intro */
+
+    .servicos-intro-texto h1 {
+        margin-left: 300px;         
+
+    }
+
+    .servicos-intro-texto p {
+        margin-left: 300px;         
+
+    }
+
+    .servicos-intro-img img {
+        margin-left: 200px;         
+
+    }
+    
+    .servicos-ux {
+        margin-left: 300px;
+        margin-right: 300px;    
+    }
+    
+    .servicos-ux-img {        
+        padding-left: 300px;
+          
+    }
+    
+    .chamada-servico {
+        margin-left: 300px;         
+    }    
+   
+}
+
+@media (max-width: 1300px) {
+/* intro */
+
+.servicos-intro-texto h1 {
+    margin-left: 60px;
+    margin-right: 60px;           
+
+}
+
+.servicos-intro-texto p {
+    margin-left: 60px;
+             
+
+}
+
+.servicos-intro-img img {
+    padding-left: 0px;
+    padding-right: 100px; 
+    margin-left: 0px;
+    margin-right: 0px;       
+
+}
+
+.servicos-ux {
+    margin-left: 60px;
+    
+       
+}
+
+.servicos-ux-texto { 
+    margin-left: 0px;    
+}
+
+.servicos-ux-img {        
+    padding-left: 120px;
+    padding-right: 0px;
+      
+}
+
+.chamada-servico {
+    margin-left: 60px;         
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   
+}
+
+@media (max-width: 800px) {
+    .servicos-intro {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        align-content: end;    
+    }
+    
+    
+    .servicos-intro-texto h1{
+        font-size: 2rem;
+        
+       
+    }
+    
+    .servicos-intro-texto h2{ 
+        font-size: 1.5rem;      
+        margin-left: 60px;
+        
+        
+    }
+    
+    .servicos-intro-texto p{ 
+        font-size: 1rem;
+        margin-right: 60px;
+          
+    }
+    
+    .servicos-intro-img {
+        display: none;
+    }   
+   
+    
+    /* servicos */
+    
+    .servicos-ux {
+        margin-left: 60px;
+        margin-right: 60px;    
+    }
+    
+    .servicos-ux-intro h1 {
+        font-size: 2rem;
+      
+    }
+    
+    .servicos-ux-intro img {
+       
+    }
+    
+    
+    .servicos-ux-conteudo  {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        align-content: left;    
+    }
+    
+    .servicos-ux-texto p {   
+        font-size: 1rem;
+       
+    }
+    
+    .servicos-ux-texto h1{
+        font-size: 2rem;
+        
+        
+    }
+    
+    .servicos-ux-texto h2{ 
+        font-size: 1.5rem;
+           
+    }
+    
+    .servicos-ux-texto h3{ 
+        font-size: 1rem;   
+       
+        
+    }
+    
+    .servicos-intro-texto p{ 
+        font-size: 1rem;         
+    }
+       
+    .servicos-ux-img {
+       display:none;  
+    }
+    
+    .chamada-servico h2 {
+        font-size: 1.5rem;          
+    }
+
+    .chamada-servico a {
+        font-size: 1rem;          
+    }
+    
+    .chamada-servico h2 {
+        font-size: 1.5rem;    
+    }
+}
+
+@media (max-width: 450px) {
+    .servicos-intro {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        align-content: end;
+            
+    }
+    
+    
+    .servicos-intro-texto h1{
+        font-size: 1.5rem;
+        margin-left: 30px;
+        
+       
+    }
+    
+    .servicos-intro-texto h2{ 
+        font-size: 1rem;      
+        margin-left: 30px;
+        
+        
+    }
+    
+    .servicos-intro-texto p{ 
+        font-size: 0.8rem;
+        margin-right: 30px;
+        margin-left: 30px;
+          
+    }
+    
+    .servicos-intro-img {
+        display: none;
+    }   
+   
+    
+    /* servicos */
+    
+    .servicos-ux {
+        margin-left: 30px;
+        margin-right: 30px;    
+    }
+    
+    .servicos-ux-intro h1 {
+        font-size: 1rem;
+      
+    }
+    
+    
+    
+    
+    .servicos-ux-conteudo  {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        align-content: left;    
+    }
+    
+    .servicos-ux-texto p {   
+        font-size: 0.8rem;
+       
+    }
+    
+    .servicos-ux-texto h1{
+        font-size: 1.5rem;
+        
+        
+    }
+    
+    .servicos-ux-texto h2{ 
+        font-size: 1rem;
+           
+    }
+    
+    .servicos-ux-texto h3{ 
+        font-size: 0.8rem;   
+       
+        
+    }
+    
+    .servicos-intro-texto p{ 
+        font-size: 0.8rem;         
+    }
+       
+    .servicos-ux-img {
+       display:none;  
+    }
+
+    .chamada-servico {
+        margin-left: 30px;
+                 
+    }
+    
+    .chamada-servico h2 {
+        font-size: 1rem;
+                 
+    }
+
+    .chamada-servico a {
+        font-size: 0.8rem;
+        
+
+    }
+    
+} 

@@ -6,14 +6,18 @@
 /* utilidades */
 @import "./utilidades/cores.css";
 @import "./utilidades/animacao.css";
+@import "./utilidades/componentes.css";
 
 /* home */
-@import "./home/intro.css";
-@import "./home/projetos.css";
-@import "./home/ferramentas.css";
+@import "./home/home.css";
 
-/* curriculo */
-@import "./curriculo/curriculo.css";
+/* sobre */
+@import "./sobre/intro.css";
+@import "./sobre/projetos.css";
+@import "./sobre/ferramentas.css";
+
+/* servicos */
+@import "./servicos/servicos.css";
 
 /* contatos */
 @import "./contatos/contatos.css";
