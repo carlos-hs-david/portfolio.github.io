@@ -2,7 +2,7 @@
 
 .home-bg {
     /* background-color:darkcyan; */
-    background-image:url('/img/1-index/images/1-img-intro.jpg');
+    background-image:url('../img/1-index/images/1-img-intro.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top:150px;
@@ -142,7 +142,7 @@
 
 .servico-home {
     /* background-color:darkcyan; */
-    background-image:url('/img/1-index/images/2-img-servicos.jpg');
+    background-image:url('../img/1-index/images/2-img-servicos.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top:100px;
