@@ -51,18 +51,36 @@
     padding-top: 60px;
 }
 
-.p-proj-metodo h1, .p-proj-metodo img, .p-proj-metodo p {
+.p-proj-metodo h1, .p-proj-metodo h2 {
     margin-left: 150px;
     margin-right: 150px;
     padding-bottom: 30px;
+}
+
+
+
+.p-proj-metodo p, .p-proj-metodo img  {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 .p-proj-metodo h1 {     
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
     font-weight: 400;
-    padding-top: 60px;
+    padding-top: 30px;
     color: #f8f0a7;   
+}
+
+.p-proj-metodo h2 {
+    font-size: 1.5rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+    color: #f8f0a7; 
+    
 }
 
 .p-proj-metodo img {
@@ -76,11 +94,20 @@
     width: 100ch;    
 }
 
+.p-proj-metodo a {
+    text-decoration:underline;
+    color: #e2d880;
+}
+
 /* sobre */
 
-.p-proj-sobre h1, .p-proj-sobre p {
+.p-proj-sobre  {
     margin-left: 150px;
     margin-right: 150px;    
+    padding-bottom: 30px;
+}
+
+.p-proj-sobre h1, .p-proj-sobre p {    
     padding-bottom: 30px;
 }
 
@@ -116,13 +143,33 @@
 }
 
 .p-proj-sobre img {
-    margin-left: 150px;
-    margin-right: 150px; 
+    
     padding-bottom: 30px;
     object-fit: cover;
 }
 
+.p-imagem-sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+  
+    
+}
 
+.p-imagem-sobre img {
+    object-fit: cover; 
+    align-content: center;
+    
+}
+
+.p-imagem-sobre a{    
+        font-size: 0.9rem; 
+        padding-bottom: 30px;
+        padding-top: 0px;
+    
+           
+    
+}
 
 
 /* matriz csd */
@@ -154,6 +201,46 @@
     padding-bottom: 30px;
     object-fit: cover;
 }
+
+.p-proj-public-insp  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px 40px;
+    margin-left: 150px;
+    margin-right: 150px; 
+}
+
+.p-proj-public-insp p {
+    padding-bottom: 24px;
+}
+
+.p-proj-public-insp h2 {
+    padding-bottom: 18px;
+}
+
+.p-proj-public-insp img {
+    padding-bottom: 12px;
+}
+
+.p-proj-public-insp h2 {
+    font-size: 1.3rem;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 400;
+    color: #f8f0a7; 
+}
+
+.p-proj-public-insp p {
+    font-size: 1.1rem;
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+     
+}
+
+.p-proj-public-insp a {
+    text-decoration:underline;
+    color: #e2d880;
+}
+
 
 /* passos */
 
@@ -211,7 +298,8 @@
 }
 
 .p-proj-benchmark img {
-    padding-top: 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
 }
 
 .p-proj-benchmark h1 {
@@ -231,7 +319,7 @@
     font-size: 1.1rem;
     font-family:'Roboto',sans-serif;
     font-weight: 400;
-    padding-bottom: 30px;
+    padding-bottom: 18px;
     width: 100ch;    
 }
 
@@ -490,7 +578,7 @@
 
     /* metodo */
 
-.p-proj-metodo h1, .p-proj-metodo img, .p-proj-metodo p {
+.p-proj-metodo h1, .p-proj-metodo img, .p-proj-metodo p, .p-proj-metodo h2 {
     margin-left: 300px;
     margin-right: 300px;    
 }
@@ -505,23 +593,29 @@
 
     /* sobre */
 
-    .p-proj-sobre h1, .p-proj-sobre p {
+    
+    .p-proj-sobre  {
+      
+        grid-template-columns: 1fr 3fr;
         margin-left: 300px;
-        margin-right: 300px;                
+        margin-right: 300px;    
+       
     }
+   
     
     .p-proj-sobre ul {
         margin-left: 300px;
         margin-right: 300px; 
     }
 
-    .p-proj-sobre img {
+    /* .p-proj-sobre img {
         margin-left: 300px;
         margin-right: 300px;        
-    }
+    } */
 
 
     /* matriz csd */
+
 
     .p-proj-public h1, .p-proj-public p{
         margin-left: 300px;
@@ -533,6 +627,11 @@
         margin-right: 300px;       
     }
 
+    .p-proj-public-insp  {     
+        margin-left: 300px;
+        margin-right: 300px; 
+    }
+   
     /* passos */
 
     .p-proj-passos h1, .p-proj-passos p{
@@ -632,7 +731,7 @@
 
      /* metodo */
 
-    .p-proj-metodo h1, .p-proj-metodo img, .p-proj-metodo p {
+    .p-proj-metodo h1, .p-proj-metodo img, .p-proj-metodo p, .p-proj-metodo h2 {
         margin-left: 60px;
         margin-right: 60px;    
     }
@@ -662,9 +761,10 @@
 
     /* sobre */
 
-    .p-proj-sobre h1, .p-proj-sobre p {
+    .p-proj-sobre  {
         margin-left: 60px;
-        margin-right: 60px;                
+        margin-right: 60px;    
+       
     }
 
     .p-proj-sobre p {
@@ -676,9 +776,7 @@
         margin-right: 60px; 
     }
 
-    .p-proj-sobre img {
-        margin-left: 60px;
-        margin-right: 60px;
+    .p-proj-sobre img {        
         max-width: 75%;        
     }
 
@@ -702,6 +800,12 @@
     .p-proj-public p {
         width: 70ch;
     }
+
+    .p-proj-public-insp  {       
+        margin-left: 60px;
+        margin-right: 60px; 
+    }
+    
 
     /* passos */
 
@@ -861,12 +965,14 @@
 
       /* intro */
 .proj-pg-intro h1 {     
-    font-size: 2rem;     
+    font-size: 2rem;
+        
 }
 
 
 .proj-pg-intro h1 {
-    padding-top: 60px;       
+    padding-top: 60px;
+         
 }
 .proj-pg-intro img {    
     padding-top: 30px;      
@@ -876,7 +982,13 @@
 
 .p-proj-metodo h1 {
     font-size: 1.5rem;
+    padding-top: 18px;
 } 
+
+.p-proj-metodo h2 {
+    font-size: 1.2rem;
+    
+}
 
 .p-proj-metodo p {
     font-size: 1rem; 
@@ -886,11 +998,18 @@
 /* benchmark */
 .p-proj-benchmark h1{
     font-size: 1.5rem;
+    padding-top: 18px;
 }
 
 .p-proj-benchmark p {
     font-size: 1rem;
     width: 40ch;
+    padding-bottom: 12px;
+}
+
+.p-proj-benchmark img {
+    padding-bottom: 30px;
+    padding-top: 8px;
 }
 
 
@@ -899,6 +1018,7 @@
 
 .p-proj-sobre h1 {     
     font-size: 1.5rem;
+    padding-top: 18px;
      
 }
 
@@ -910,12 +1030,27 @@
     width: 40ch;
 }
 
+.p-imagem-sobre {
+    display: grid;
+    grid-template-columns: 1fr;
+  
+    
+    
+}
+
+.p-imagem-sobre a{    
+    font-size: 0.8rem;      
+
+}
+
 
 /* matriz csd */
 
 
 .p-proj-public h1 {     
     font-size: 1.5rem;
+    padding-top: 60px;
+    padding-bottom: 24px;
      
 }
 
@@ -927,10 +1062,41 @@
     width: 40ch;
 }
 
+.p-proj-public-insp  {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.p-proj-public-insp p {
+    padding-bottom: 30px;
+}
+
+.p-proj-public-insp h2 {
+    padding-bottom: 12px;
+}
+
+.p-proj-public-insp img {
+    padding-bottom: 12px;
+}
+
+.p-proj-public-insp h2 {
+    font-size: 1.0rem;
+   
+}
+
+.p-proj-public-insp p {
+    font-size: 0.8rem;
+    
+}
+
+
+
 /* passos */
 
 .p-proj-passos h1 {     
-    font-size: 1.5rem;    
+    font-size: 1.5rem; 
+    padding-top: 18px;   
 }
 
 .p-proj-passos p {
@@ -945,7 +1111,8 @@
 
 
 .p-proj-briefing h1 {     
-    font-size: 1.5rem;     
+    font-size: 1.5rem; 
+    padding-top: 18px;    
 }
 
 .p-proj-briefing ul {
@@ -957,6 +1124,7 @@
 
 .p-proj-story h1 {     
     font-size: 1.5rem;
+    padding-top: 18px;
     
 }
 
@@ -972,7 +1140,8 @@
 
 
 .p-proj-persona h1 {     
-    font-size: 1.5rem;    
+    font-size: 1.5rem;
+    padding-top: 18px;    
 }
 
 .p-proj-persona p {
@@ -998,6 +1167,7 @@
 
 .p-proj-stake h1 {     
     font-size: 1.5rem;
+    padding-top: 18px;
     
 }
 
@@ -1013,6 +1183,7 @@
 
 .p-proj-desenv h1 {     
     font-size: 1.5rem;
+    padding-top: 18px;
     
 }
 
@@ -1029,6 +1200,7 @@
 
 .p-proj-conc h1 {     
     font-size: 1.5rem;
+    padding-top: 18px;
     
 }
 
@@ -1047,6 +1219,7 @@
 
 .p-proj-fluxo h1 {     
     font-size: 1.5rem;
+    padding-top: 18px;
      
 }
 
@@ -1062,7 +1235,8 @@
 
 
 .p-proj-cor h1 {     
-    font-size: 1.5rem;    
+    font-size: 1.5rem;
+    padding-top: 18px;    
 }
 
 .p-proj-cor p {
@@ -1078,6 +1252,7 @@
 
 .p-proj-result h1 {     
     font-size: 1.5rem;
+    padding-top: 18px;
     
 }
 
@@ -1126,7 +1301,7 @@
 
     /* metodo */
 
-    .p-proj-metodo h1, .p-proj-metodo img, .p-proj-metodo p {
+    .p-proj-metodo h1, .p-proj-metodo img, .p-proj-metodo p, .p-proj-metodo h2 {
         margin-left: 30px;
         margin-right: 30px;    
     }
@@ -1136,6 +1311,10 @@
         padding-top: 30px; 
     }
 
+    .p-proj-metodo h2{
+        font-size: 0.9;
+        padding-top: 24px;
+    }
     .p-proj-metodo p{
         font-size: 0.8rem;
         width: 30ch;
@@ -1145,7 +1324,7 @@
 
     /* sobre */
 
-    .p-proj-sobre h1, .p-proj-sobre p {
+    .p-proj-sobre {
         margin-left: 30px;
         margin-right: 30px;                
     }
@@ -1155,10 +1334,10 @@
         margin-right: 30px; 
     }
 
-    .p-proj-sobre img {
+    /* .p-proj-sobre img {
         margin-left: 30px;
         margin-right: 30px;        
-    }
+    } */
 
     .p-proj-sobre h1 {     
         font-size: 1.1rem;
@@ -1171,7 +1350,12 @@
     
     .p-proj-sobre p {
         width: 30ch;
-    }    
+    }  
+    
+    .p-imagem-sobre a{    
+        font-size: 0.7rem;      
+    
+    }
 
     /* matriz csd */
 
@@ -1196,7 +1380,28 @@
     
     .p-proj-public p {
         width: 30ch;
-    }    
+    }
+    
+    .p-proj-public-insp  {
+        margin-left: 30px;
+        margin-right: 30px; 
+        
+    }
+    
+  
+    
+    .p-proj-public-insp h2 {
+        font-size: 0.9rem;
+       
+    }
+    
+    .p-proj-public-insp p {
+        font-size: 0.7rem;
+        
+    }
+    
+    
+    
 
     /* passos */
 

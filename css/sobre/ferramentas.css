@@ -29,9 +29,10 @@
 }
 
 .ferramentas-links ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 0px 40px;   
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    flex-wrap: wrap;  
 }
 
 .ferramentas-links li {
@@ -70,6 +71,7 @@
     }
     .ferramentas-links ul {
         margin-left: 300px;
+        margin-right: 300px;
     }    
 }
 
@@ -84,11 +86,7 @@
 }
 
 @media (max-width: 800px) {
-    .ferramentas-links ul{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 0px 40px;
-    }
+    
     
 }
 

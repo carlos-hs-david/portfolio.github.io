@@ -139,12 +139,11 @@
 }
 
 .botao-sobre { 
-    margin-right: 150px;
-    margin-left: 150px;
-    display: grid;    
-    grid-template-columns: 1fr 1fr;
-    align-content: start;
-    padding-bottom: 60px; 
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    text-align: center;
+    padding-bottom:60px;
     
 }
 
@@ -163,7 +162,7 @@
     margin-right: 150px;
     margin-left: 150px;
     display: grid;    
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-content: end;
     padding-bottom: 60px;     
 }
@@ -188,7 +187,7 @@
 
 .servico-home-conteudo h2 {
     padding-bottom: 30px;
-    text-align: center;
+    text-align: left;
     color: #f8f0a7;
     font-size: 2rem;
     font-family:'Montserrat',sans-serif;
@@ -318,9 +317,18 @@
     margin-left: 40px;
 }
 
+.servico-home-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: end;
+    padding-bottom: 30px;        
+    
+}
+
 .servico-home-conteudo h2 {
     margin-right: 40px;
-    margin-left: 40px;
+    margin-left: 40px;         
+    
 }
 
 /* botao */
